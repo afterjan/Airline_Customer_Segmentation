@@ -50,6 +50,9 @@ Repository ini berisi README, sebuah notebook python bernama Airline_Customer_Se
 |Point_NotFlight| Poin yang tidak digunakan customer|
 
 ## Methods
+**Project ini membutuhkan paket standar pandas, numpy, matplotlib, seaborn, sklearn, dan yellowbrick untuk memvisualisasikan skor siluet. 
+Jika ingin melakukan pengujian yang sama maka perlu menginstal paket ini terlebih dahulu.**
+
 Proses yang kami lakukan secara garis besar adalah:
 ### **1. EDA**
  - Descriptive Statistics
@@ -68,9 +71,6 @@ Proses yang kami lakukan secara garis besar adalah:
 Algoritma K-means digunakan untuk mengelompokkan pelanggan, sementara untuk menentukan jumlah cluster (nilai-k) yang optimal
 saya menggunakan elbow method dan silhouette score. Setelah clustering selesai dilakukan kemudian setiap cluster dianalisis dari nilai LRFMC
 untuk dilihat karakteristiknya.
-
-Project ini membutuhkan paket standar pandas, numpy, matplotlib, seaborn, sklearn, dan yellowbrick untuk memvisualisasikan skor siluet. 
-Jika ingin melakukan pengujian yang sama maka perlu menginstal paket ini terlebih dahulu.
 
 ## Result
 Berdasarkan elbow method dan silhouette score jumlah cluster terbaik adalah 2. 
