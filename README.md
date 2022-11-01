@@ -58,8 +58,8 @@ Proses yang kami lakukan secara garis besar adalah:
 ### **2. Preprocessing**
  - Handle Missing Values
  - Feature Engineering
-   1. Feature Extraction
-   2. Feature Selection:
+   * Feature Extraction
+   * Feature Selection:
       Pada project ini saya menggunakan model LRFMC untuk membuat segmentasi khusus untuk pelanggan perusahaan penerbangan,
       model ini merupakan pengembangan dari model umum RFM.
  - Feature transformation: BoxCox
