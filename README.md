@@ -20,7 +20,7 @@ Di sini, saya menggunakan dataset perusahaan penerbangan untuk membuat segmentas
 cluster yang diperoleh dan memberikan rekomendasi bisnis yang sesuai.
 
 ## Files
-Repository ini berisi README, sebuah notebook python bernama Airline_Customer_Segmentation.ipynb dan dataset itu sendiri.
+Repository ini berisi README, sebuah notebook python bernama Airline_Customer_Segmentation.ipynb dan dataset bernama Flight.csv.
 
 ## Data Dictionary
 |Variable|Description|
